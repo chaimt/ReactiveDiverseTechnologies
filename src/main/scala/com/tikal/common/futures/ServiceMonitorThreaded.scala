@@ -1,4 +1,4 @@
-package com.tikal.fleet.futures
+package com.tikal.common.futures
 
 import com.google.gson.{JsonElement, JsonParser}
 import com.tikal.fleet.rxjava.Utils

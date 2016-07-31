@@ -1,7 +1,7 @@
 package com.tikal.fleet.akka.actors
 
-import akka.actor.{Actor, OneForOneStrategy}
 import akka.actor.SupervisorStrategy.{Escalate, Restart, Resume, Stop}
+import akka.actor.{Actor, OneForOneStrategy}
 
 import scala.concurrent.duration._
 

@@ -1,7 +1,6 @@
 package com.tikal.fleet.akka.actors
 
 import akka.actor.Actor
-import akka.actor.Actor.Receive
 
 /**
   * Created by chaimturkel on 6/20/16.

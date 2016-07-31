@@ -1,12 +1,12 @@
 package com.tikal.fleet.configuration
 
 import akka.actor.ActorSystem
+import com.tikal.fleet.akka.spring.SpringExtention
 import com.typesafe.config.{Config, ConfigFactory}
 import com.typesafe.scalalogging.slf4j.LazyLogging
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.context.ApplicationContext
 import org.springframework.context.annotation._
-import com.tikal.fleet.akka.spring.SpringExtention
 
 /**
  * Created by Haim.Turkel on 7/26/2015.

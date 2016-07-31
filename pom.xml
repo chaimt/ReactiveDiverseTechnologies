@@ -101,6 +101,20 @@
         </dependency>
 
         <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-actor_${scalaBinaryVersion}</artifactId>
+            <version>${akka-actor.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-remote_${scalaBinaryVersion}</artifactId>
+            <version>2.4.8</version>
+        </dependency>
+
+
+
+        <dependency>
             <groupId>com.typesafe.scala-logging</groupId>
             <artifactId>scala-logging-slf4j_${scalaBinaryVersion}</artifactId>
             <version>2.1.2</version>

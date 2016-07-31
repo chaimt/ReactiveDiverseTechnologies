@@ -21,8 +21,6 @@ import java.io.IOException;
  */
 public class ServiceMonitorThreaded {
 
-
-
     public void getServicesStatus(){
         final JsonParser jsonParser = new JsonParser();
 

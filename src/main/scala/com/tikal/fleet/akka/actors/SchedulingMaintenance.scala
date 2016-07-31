@@ -1,9 +1,8 @@
 package com.tikal.fleet.akka.actors
 
-import akka.actor.{Actor, ActorRef, ActorSystem, Props}
 import java.util.concurrent.TimeUnit.MILLISECONDS
 
-import com.tikal.fleet.akka.model.Client
+import akka.actor.{Actor, ActorSystem, Props}
 
 import scala.concurrent.duration.FiniteDuration
 
